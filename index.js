@@ -11,7 +11,7 @@ const app = express();
 //connect to database (mongo)
 const dbUri ='mongodb+srv://Kelvin:PV0wePEstadg1Wrr@nodelearning.1zq04.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(dbUri,  {useNewUrlParser: true, useUnifiedTopology: true})
-          .then((result) =>  app.listen(3000))
+          .then((result) =>  app.listen())
           .catch((err) => console.log(err));
 
 //register view engine
