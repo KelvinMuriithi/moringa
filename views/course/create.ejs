@@ -1,0 +1,22 @@
+<html lang="en">
+    <%- include('../partials/head.ejs') %>
+
+
+<body>
+    <%- include('../partials/nav.ejs') %>
+
+
+  <div class="create-course content">
+      <form action="/courses" method="POST">
+          <label for="title">Course title:</label>
+          <input type="text"name="title" id="title" required>
+          <label for="snippset">Course description:</label>
+          <input type="text" name="description" id="description" required>
+          <label for="snippset">Course requirement:</label>
+          <textarea name="requirement" id="requirement" required></textarea>
+          <button>Add course</button>
+      </form>
+    </div>
+    <%- include('../partials/footer.ejs') %>
+</body>
+</html>
