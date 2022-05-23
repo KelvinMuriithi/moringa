@@ -22,6 +22,9 @@
       border-bottom: 1px solid #ddd;
       text-transform: uppercase;
     }
+    title{
+      font-size: 1.875em; /* 30px/16=1.875em */
+    }
     nav ul{
       display: flex;
       justify-content: space-between;
