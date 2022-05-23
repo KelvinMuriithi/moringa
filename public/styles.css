@@ -35,11 +35,11 @@
       font-size: 3em;
     }
     nav p, nav a{
-      color: #777;
+      color: #8393;
       font-weight: 300;
     }
     footer{
-      color: #777;
+      color: #8393;
       text-align: center;
       margin: 80px auto 20px;
     }
@@ -59,10 +59,10 @@
       display: block;
       margin: 40px 0;
       padding-left: 30px;
-      border-left: 6px solid crimson;
+      border-left: 6px solid rgb(123, 123, 199);
     }
     .courses a:hover h3{
-      color: crimson;
+      color:rgb(123, 123, 199);
     }
 
     /* details styles */
