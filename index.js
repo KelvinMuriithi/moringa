@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000
 const app = express();
 
 //connect to database (mongo)
-const dbUri ='mongodb+srv://Kelvin:PV0wePEstadg1Wrr@nodelearning.1zq04.mongodb.net/?retryWrites=true&w=majority';
+const dbUri ='';
 mongoose.connect(dbUri,  {useNewUrlParser: true, useUnifiedTopology: true})
           .then((result)=>app.listen(PORT, () => console.log(`Listening on ${ PORT }`)))
           .catch((err) => console.log(err));
